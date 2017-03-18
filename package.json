@@ -1,0 +1,17 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "demonstrating independent server for chrome extension",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pg": "^6.1.4"
+  }
+}
